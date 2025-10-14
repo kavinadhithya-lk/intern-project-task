@@ -426,42 +426,6 @@ export default function Index() {
           </div>
         </div>
       </section>
-
-      {/* Contact Floating Buttons - Desktop only */}
-      <div className="hidden xl:block fixed right-8 top-1/2 -translate-y-1/2 space-y-4 z-40">
-        <button className="flex items-center gap-3 bg-white rounded-[20px] px-4 py-3 shadow-lg hover:shadow-xl transition-shadow">
-          <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/b87f9e445757efcac28c4f37d6f43f9ade61c852?width=118"
-            alt="Chat"
-            className="w-12 h-12"
-          />
-          <span className="font-poppins text-[21px] font-medium text-black">
-            Let's Talk
-          </span>
-        </button>
-
-        <button className="flex items-center gap-3 bg-white rounded-[20px] px-4 py-3 shadow-lg hover:shadow-xl transition-shadow">
-          <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/dc3fa2d440ebf0ba7f1962ca064a74588783631a?width=83"
-            alt="WhatsApp"
-            className="w-11 h-11"
-          />
-          <span className="font-poppins text-[21px] font-medium text-black">
-            Whatsapp
-          </span>
-        </button>
-
-        <button className="flex items-center gap-3 bg-white rounded-[20px] px-4 py-3 shadow-lg hover:shadow-xl transition-shadow">
-          <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/9cabd8d490a3545e6a9df081e4c879cdc0cfd88b?width=98"
-            alt="Email"
-            className="w-12 h-12"
-          />
-          <span className="font-poppins text-[21px] font-medium text-black">
-            E-Mail Us
-          </span>
-        </button>
-      </div>
     </div>
   );
 }

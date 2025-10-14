@@ -63,10 +63,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        hero: {
-          bg: "hsl(var(--hero-bg))",
-          alt: "hsl(var(--hero-bg-alt))",
-        },
+         hero: {
+          bg: "#87CEFA", // Light Sky Blue
+          alt: "#B0E2FF", // Lighter variant
+       },
         dark: "hsl(var(--dark))",
         gold: "hsl(var(--gold))",
       },

@@ -16,7 +16,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center gap-12">
+            <nav className="hidden lg:flex items-center gap-20">
               <Link
                 to="/"
                 className="text-white font-poppins text-sm font-medium hover:opacity-80 transition-opacity"
@@ -58,15 +58,19 @@ export default function Header() {
               </button>
             </nav>
 
-            {/* Language Selector & Menu */}
-            <div className="flex items-center gap-6">
+            {/* Language Selector & Hamburger Menu */}
+            <div className="flex items-center gap-10">
+              {/* Language Selector */}
               <button className="hidden md:flex items-center gap-2 text-white hover:opacity-80 transition-opacity">
                 <Globe className="w-6 h-6" />
                 <span className="font-poppins text-sm font-medium">ENG</span>
               </button>
 
-              <button className="lg:hidden text-white hover:opacity-80 transition-opacity">
-                <Menu className="w-8 h-8" />
+              {/* Hamburger button*/}
+              <button className="flex flex-col justify-between w-6 h-6 p-1 border border-white rounded hover:bg-white/20 transition-all">
+                <span className="block h-[2px] w-full bg-white"></span>
+                <span className="block h-[2px] w-full bg-white"></span>
+                <span className="block h-[2px] w-full bg-white"></span>
               </button>
             </div>
           </div>
